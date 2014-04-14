@@ -335,7 +335,7 @@ define("LINK_EXCHANGE_EMAIL", 'Email');
 
 define("OUR_FRIENDS", 'Nuestros amigos');
 
-// Emails
+// Correos
 define("EMAIL_FR_HEADING", 'Tienes una nueva solicitud de amistad');
 define("EMAIL_ACCEPT_FRIEND_REQUEST", 'Aceptar amigos');
 define("EMAIL_GREETING", 'Hola'); // Hola <nombre de usuario>
@@ -358,12 +358,12 @@ define("EMAIL_REGISTER_VALIDATE", 'Validar direccion de correo electrónico');
 
 define("EMAIL_PLAY_GAME", 'Jugar Juego');
 
-// Email settings
+// Configuración de Correos
 define("EMAIL_SETTINGS", 'Configurar Email');
 define("ES_NEW_MESSAGE", 'Nuevo mensaje privado');
 define("ES_FRIEND_REQUEST", 'Petici&oacute;n de Amistad');
 define("ES_HIGHSCORE_CHALLENGE", 'Desaf&iacute;o de Puntuaci&oacute;n');
-// Challenge a friend
+// Desafios
 define("CHALLENGE_HEADING", 'Desafiar a un amigo');
 define("CHALLENGE_LABEL", 'Desafiar');
 define("CHALLENGE_LEADERBOARD_LABEL", 'Para vencer'); // Challenge <user> to beat <Scores>
@@ -376,20 +376,20 @@ define("CHALLENGE_SUBMITTED", 'Desaf&iacute;o enviado');
 define("CHALLENGE_ANOTHER", 'Desaf&iacute;a a otro amigo');
 
 define("CHALLENGE_PM_SUBJECT1", 'Trata de Superar mi puntuacion de');
-define("CHALLENGE_PM_SUBJECT2", 'Online'); // Try to beat my score of <score> on <game name>
+define("CHALLENGE_PM_SUBJECT2", 'Online'); // Prueba a batir la puntuación <puntuación> en <nombre del juego>
 
 define("CHALLENGE_PM_GREETING1", 'Hola');
-define("CHALLENGE_PM_GREETING2", 'te ha retado a superar su puntuaci&oacute;n');
+define("CHALLENGE_PM_GREETING2", 'te ha retado a superar tu puntuaci&oacute;n');
 
 define("CHALLENGE_A_FRIEND", 'Desafiar amigo');
-define("CHALLENGE_A_FRIEND_LONG", 'Desafía a un amigo a superar tu puntuaci&oacute;n');
+define("CHALLENGE_A_FRIEND_LONG", 'Desaf&iacute;a a un amigo a superar tu puntuaci&oacute;n');
 
-define("HIGHSCORE_SUBMITTED", 'Puntuacion enviada');
+define("HIGHSCORE_SUBMITTED", 'Puntuaci&oacute;n enviada');
 define("HIGHSCORE_ALREADY_SUBMITTED", 'Tienes la mejor puntuaci&oacute;n en este juego');
 
 define("CHALLENGE_NOSCORE", '&iexcl;No tienes la puntuaci&oacute;n m&aacute;s alta en este juego!');
 
-// 5.5 Misc
+// 5.5 Miscelánea
 define("ALL_GAMES", 'Todos');
 define("LEADERBOARD", 'Tabla de Puntuaciones');
 define("LOADING", 'Cargando');
