@@ -397,18 +397,18 @@ define("BANNED_MSG", 'Tu cuenta esta Baneada');
 define("ERROR_MESSAGE", 'Error');
 
 define("INVALID_LOGIN1", 'Establece nueva contrase&ntilde;a: Por favor');
-define("INVALID_LOGIN2", 'y luego inicia sesi&oacute;n con tu nueva contrase&ntilde;a.'); // New password set: Please <LOGOUT> and then login with your new password
+define("INVALID_LOGIN2", 'y luego inicia sesi&oacute;n con tu nueva contrase&ntilde;a.'); // Nueva contraseña establecida: Porfavor <LOGOUT> e identifícate de nuevo con tu nueva contraseña
 
 define("PM_FLOOD_CONTROL", 'Por favor, espera 60 segundos entre el env&iacute;o de Mensajes Privados');
 
 define("GAME_SUBMITTER", 'Subido por');
 
-// Highscore additions
+// Nuevos Records
 define("HIGHSCORES_ALL", 'Todo');
 define("HIGHSCORES_FRIENDS", 'Amigos');
 define("HIGHSCORES_SHOW", 'Mostrar');
 
-// GENERAL FORUM
+// Foro General (solo si se tiene el addon)
 define("FORUM", 'Foro');
 define("FORUMS", 'Foros');
 define("TOPIC", 'Tema');
@@ -429,60 +429,60 @@ define("CANCEL", 'Cancelar');
 define("SUB_FORUMS", 'Sub-foros');
 define("FORUM_SEARCH", 'Buscar en Foro');
 define("TOTAL_POSTS", 'Mensajes');
-define("NOT_LOGGED_IN", 'Su sesion ha caducado, por favor inicie sesion de nuevo para continuar');
+define("NOT_LOGGED_IN", 'Su sesi&oacute;n ha caducado, por favor inicia sesi&oacute;n de nuevo para continuar');
 
-define("ERROR_FLOOD_CONTROL1", 'Control de seguridad activado: Por Favor, espere'); // Flood control enabled: Please wait <total> seconds between posts
+define("ERROR_FLOOD_CONTROL1", 'Control de seguridad activado: Por Favor, espera'); // Control de Flood activado: Espera <total> segundos entre mensajes
 define("ERROR_FLOOD_CONTROL2", 'segundos entre mensajes');
 
-// Forums display
+// Mostrado de Foros
 define("LAST_POST_INFO", 'Info &Uacute;ltimo mensaje');
 define("POSTED_BY", 'por');
 define("OPEN_TOPIC", 'Tema Abierto');
-define("TP_STARTED", 'empezó el tema'); // USERNAME started the topic
-define("TP_LAST_POST", 'hizo el ultimo mensaje'); // USERNAME made the last post
+define("TP_STARTED", 'empez&oacute; el tema'); // USERNAME ha empezado el tema
+define("TP_LAST_POST", 'escribi&oacute; el &uacute;ltimo mensaje'); // USERNAME escribió el último mensaje
 define("FORUM_SEARCH_BOX", 'Buscar en este foro...'); 
 define("NEW_TOPIC", 'Nuevo Tema'); 
 define("LOGIN_TO_START", 'Conectar para iniciar un tema'); 
 define("NO_TOPICS", 'No hay temas en este foro'); 
-define("INVALID_FORUM", 'Foro no existe o es de solo lectura');
+define("INVALID_FORUM", 'Foro inexistente o de solo lectura');
 
-// Post Reports
-define("POST_REPORT_TITLE", 'Por favor, indique la razon para informar de este mensaje');  
+// Denunciar Mensajes
+define("POST_REPORT_TITLE", 'Por favor, indica la raz&oacute;n para informar de este mensaje');  
 
-// Forum / Search results
+// Foro / Resultados de Búsqueda
 define("LAST_POST_BY", '&Uacute;ltimo mensaje por');
 
-// Topic
+// Mensaje
 define("SUBMIT_REPLY", 'Enviar respuesta');
-define("ADD_REPLY", 'Añadir respuesta');
+define("ADD_REPLY", 'A&ntilde;adir respuesta');
 define("LOGIN_TO_REPLY", 'Conectar para responder');
 define("TOPIC_SEARCH_BOX", 'Buscar en este tema...'); 
 define("EDITING_POST", 'Editando mensaje'); // Editing post #1 etc
 define("JUST_NOW", 'Ahora Mismo'); // Post edited: Just now
 define("REPORT_POST", 'Informar del Mensaje'); // Post edited: Just now
-define("NP_LAST_PAGE", 'Tu mensaje aparecerá en la ultima pagina');
+define("NP_LAST_PAGE", 'Tu mensaje aparecer&aacute; en la &uacute;ltima pagina');
 
 define("ERROR_TOPIC_LOCKED", 'Lo siento, este tema ha sido cerrado');
-define("ERROR_NOT_LOGGED_IN", 'Su sesion ha caducado, por favor inicie sesion de nuevo en una nueva pesta&ntilde;a y vuelva aqui para enviar un mensaje.');
+define("ERROR_NOT_LOGGED_IN", 'Tu sesi&oacute;n ha caducado, por favor inicia sesi&oacute;n de nuevo en una nueva pesta&ntilde;a y regresa aqu&iacute; para enviar un mensaje.');
 
-// FORUM SEARCH
+// Búsqueda en el foro
 define("FS_ALL", 'Todos los foros');
 define("FS_SUBF", 'Buscar en sub-foros');
-define("FS_TITLES", 'Buscar sólo títulos de temas');
-define("FS_RANGE", 'Mostrar mensajes desde el ultimo');
+define("FS_TITLES", 'Buscar s&oacute;lo t&iacute;tulos de temas');
+define("FS_RANGE", 'Mostrar mensajes desde el &uacute;ltimo');
 define("FS_TOPICID", 'ID del Tema');
-define("FS_SEARCH_FOR", 'Busqueda para');
+define("FS_SEARCH_FOR", 'B&uacute;squeda para');
 define("FS_POSTED_BY", 'Publicado por');
 define("FS_SHOW", 'Mostrar');
 define("FS_HOURS", 'Horas');
-define("FS_DAYS", 'Dias');
+define("FS_DAYS", 'D&iacute;as');
 define("FS_WEEKS", 'Semanas');
 define("FS_MONTHS", 'Meses');
 
-/* FORUM VIEW */
+/* Vista del Foro */
 define("TOPIC_CREATED_BY", 'Creado por');
 
-// FORUM EDITOR */
+// Editor del Foro */
 define("BB_BOLD", 'Negrita');
 define("BB_ITALICS", 'Cursiva');
 define("BB_UNDERLINE", 'Subrayado');
@@ -492,9 +492,9 @@ define("BB_COLOUR", 'Color Fuente');
 define("BB_IMAGE", 'Imagen');
 define("BB_LINK", 'URL');
 define("BB_LIST", 'Lista');
-define("BB_ALIGN", 'Alineacion de Texto');
+define("BB_ALIGN", 'Alineaci&oacute;n de Texto');
 define("BB_QUOTE", 'Citar');
-define("BB_CODE", 'Código');
+define("BB_CODE", 'C&oacute;digo');
 define("BB_EMOTICONS", 'Emoticonos');
 define("BB_REMOVE_LINK", 'Eliminar URL');
 
@@ -512,54 +512,55 @@ define("BB_LEFT", 'Izquierda');
 define("BB_CENTER", 'Centro');
 define("BB_RIGHT", 'Derecha');
 
-// NEW 5.7
-define("FORUM_POSTS", 'Mensajes Foro');
-define("REPORT_USER", 'Informar de Usuario');
-define("USER_REPORT_TITLE", 'Por favor, indique la razón para informar de este Usuario');
+// Nuevo en 5.7
+define("FORUM_POSTS", 'Mensajes del Foro');
+define("REPORT_USER", 'Informar de un Usuario');
+define("USER_REPORT_TITLE", 'Por favor, indica la raz&oacute;n para informar de este Usuario');
 define("NEWS_HOME", 'Inicio Noticias');
-define("OPTIONAL_LOGIN", 'O:'); // Login register OR Facebook connect
+define("OPTIONAL_LOGIN", 'O:'); // Identifícate o Conéctate via Facebook
 
-define("NOT_SET", 'No Establecido'); // Login register OR Facebook connect
+define("NOT_SET", 'No Establecido'); // Identifícate o Conéctate via Facebook
 
 define("SIGNATURE_SETTINGS", 'Firma del Foro');
 define("PROFILE_SIGNATURE_HEADER", 'Firma del Foro');
-define("FILL_IN_FORM", 'Por favor, asegurese de que ha rellenado los campos requeridos');
+define("FILL_IN_FORM", 'Por favor, aseg&uacute;rate de que has rellenado los campos requeridos');
 
-define("PM_NO_SUBJECT", 'No Tema');
+define("PM_NO_SUBJECT", 'Sin Tema');
 define("PM_MESSAGE_SENT", 'Mensaje enviado');
 define("PM_RETURN_TO_PROFILE", 'Volver al perfil de usuario');
-define("PM_RETURN_TO_INBOX", 'Ir bandeja de entrada');
-define("PM_REPORT", 'Informar de PM');
-define("PM_REPORT_TITLE", 'Por favor, indique la razon para informar de este mensaje');
+define("PM_RETURN_TO_INBOX", 'Ir a bandeja de entrada');
+define("PM_REPORT", 'Informar de MP');
+define("PM_REPORT_TITLE", 'Por favor, indica la raz&oacute;n para informar de este mensaje');
 define("PM_NOT_YOURS", 'Ese mensaje no te ha sido enviado');
 
-
-/* Notifications */
+/* Notificaciones */
 define("N_POINTS_EARNED1", 'Has ganado');
 define("N_POINTS_EARNED2", 'puntos');
 
 define("N_POINTS_EARNED_RATING", 'por calificar un juego');
 define("N_POINTS_EARNED_PLAY", 'por jugar a un juego');
 define("N_POINTS_EARNED_COMMENT", 'por publicar un comentario');
-define("N_POINTS_EARNED_HIGHSCORE", 'por conseguir la puntuacion mas alta');
-define("N_ALREADY_SUBMITTED", 'Ya has enviado esa puntuación');
-define("N_POINTS_EARNED_HS_LINK", 'Desafia a un amigo');
+define("N_POINTS_EARNED_HIGHSCORE", 'por conseguir la puntuaci&oacute;n mas alta');
+define("N_ALREADY_SUBMITTED", 'Ya has enviado esta puntuaci&oacute;n');
+define("N_POINTS_EARNED_HS_LINK", 'Desaf&iacute;a a un amigo');
 define("N_POINTS_EARNED_CHALLENGE", 'por desafiar a un amigo');
 define("N_POINTS_EARNED_POST", 'por responder a un tema');
 define("N_POINTS_EARNED_TOPIC", 'por iniciar un tema');
-define("N_NO_POINTS", 'Lo siento, estas ganando puntos demasiado rapido para conseguirlos esta vez.');
-define("N_MARKED_READ", 'Foro marcado como leido');
+define("N_NO_POINTS", 'Lo siento, est&aacute;s ganando puntos demasiado r&aacute;pido para conseguirlos esta vez.');
+define("N_MARKED_READ", 'Foro marcado como le&iacute;do');
 
-define("N_TICKETS1", 'Tienes');
-define("N_TICKETS2", 'juegos restantes, al terminar debera registrarse'); // You have <Number> plays remaining before you must register
+define("N_TICKETS1", 'Te quedan');
+define("N_TICKETS2", 'juegos restantes, al terminar deber&aacute;s registrarte'); // Te quedan <Número> de juegos restantes...
 
 define("N_ONE_NEW_PM", 'Tienes un nuevo mensaje privado');
 define("N_MULTIPLE_NEW_PMS1", 'Tienes');
-define("N_MULTIPLE_NEW_PMS2", 'mensajes privados no leidos');
+define("N_MULTIPLE_NEW_PMS2", 'mensajes privados no le&iacute;dos');
 define("N_ONE_NEW_FR", 'Tienes una nueva solicitud de amistad');
 define("N_MULTIPLE_NEW_FRS1", 'Tienes');
 define("N_MULTIPLE_NEW_FRS2", 'nuevas solicitudes de amistad');
 define("N_VIEW", 'Ver');
 
 define("N_COMMENT_FAST", 'Por favor, espera al menos 60 segundos entre comentarios');
+
+/*Cambios de la 5.8 a la espera de que sean publicados*/
 ?>
